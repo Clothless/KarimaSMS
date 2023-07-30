@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:karima_sms/custom/custom_message.dart';
+import 'package:karima_sms/custom/custom_search_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: CustomMessage(),
+      home: Scaffold(
+        body: Center(child: CustomSearchBar()),
+      ),
     );
   }
 }

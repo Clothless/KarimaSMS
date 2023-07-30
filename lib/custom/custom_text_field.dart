@@ -20,7 +20,6 @@ class CustomTextField extends StatelessWidget{
   
 
   CustomTextField({
-    super.key,
     this.autoCorrect = true,
     this.autoFocus = false,
     this.height = 18,

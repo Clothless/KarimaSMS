@@ -20,8 +20,7 @@ class CustomMessage extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Container(
         width: MediaQuery.of(context).size.width * 0.90,
         height: 100,
         decoration: BoxDecoration(
@@ -97,8 +96,7 @@ class CustomMessage extends StatelessWidget{
             ),
           ],
         ),
-      ),
-    );
+      );
   }
 
 
