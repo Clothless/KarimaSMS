@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    
     <application
         android:label="karima_sms"
         android:name="${applicationName}"
@@ -29,5 +33,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        
+        
     </application>
 </manifest>
